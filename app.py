@@ -24,7 +24,9 @@ while True:
         print(f"Add New User: {new_user_name}")
 
     elif your_command == "Q":
+        print("Bye!")
         break
 
     else:
-        break
+        print(f"{your_command}: command not found")
+        continue

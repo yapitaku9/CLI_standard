@@ -19,7 +19,7 @@ class User(Model):
 
     id = IntegerField(primary_key=True)
     user = CharField()
-    age = CharField()
+    age = IntegerField()
 
     class Meta:
         database = db
